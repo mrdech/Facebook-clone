@@ -1,0 +1,6 @@
+.body-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F0F2F5;
+    width: 100%;
+}

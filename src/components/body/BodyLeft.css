@@ -1,0 +1,16 @@
+.body__left {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    flex: 1;
+    padding: 10px;
+    margin-bottom: 10px;
+    min-width: 280px;
+}
+
+.left-top {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(223, 223, 223);
+}

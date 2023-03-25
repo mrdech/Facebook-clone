@@ -1,0 +1,80 @@
+.post {
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+    border-radius: 9px;
+}
+
+.post__content {
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(227, 225, 225);
+    align-items: center;
+}
+
+.post__content form {
+    margin-left: 10px;
+    flex: 1;
+}
+
+.post__content form input {
+    width: 100%;
+    border: none;
+    padding: 8px;
+    background-color: #F0F2F5;
+    outline: none;
+    font-size: 16px;
+    border-radius: 99px;
+    padding: 10px 20px;
+}
+
+.post__content form input:hover {
+    background-color: rgb(226, 231, 234);
+}
+
+.post__vehicle {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.post__option {
+    display: flex;
+    align-items: center;
+    min-width: 170px;
+    padding: 8px 15px;
+    justify-content: center;
+    color: rgb(100, 206, 100);
+}
+
+.post__option>.MuiSvgIcon-root {
+    width: 27px;
+    height: 27px;
+}
+
+.post__option:hover {
+    background-color: rgb(240, 240, 240);
+    border-radius: 9px;
+}
+
+.post__option h3 {
+    font-size: 15px;
+    color: rgb(98, 98, 98);
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.post__option:first-child {
+    color: rgb(249, 67, 67);
+}
+
+.post__option:last-child {
+    color: rgb(255, 255, 105);
+}

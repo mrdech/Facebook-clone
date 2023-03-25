@@ -1,0 +1,6 @@
+.body__center {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    padding: 10px 8%;
+}

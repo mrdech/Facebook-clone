@@ -1,0 +1,44 @@
+.row {
+    display: flex;
+    align-items: center;
+    padding: 10px 7px;
+    margin: 1px 0;
+    cursor: pointer;
+}
+
+.row:hover {
+    background-color: #e9e9e9;
+    border-radius: 5px;
+}
+
+.row__tag {
+    color: #1B74E4;
+    margin-right: 10px;
+}
+
+.row__item {
+    font-size: 15px;
+    font-weight: 700;
+    color: #333;
+}
+
+.row>.MuiSvgIcon-root {
+    color: #1B74E4;
+    font-size: 28px;
+}
+
+.row .row__avatar {
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+}
+
+.row .row__more {
+    background-color: #e5e4e4;
+    border-radius: 50%;
+    margin-right: 8px;
+    color: #666666;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}
