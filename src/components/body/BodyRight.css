@@ -4,7 +4,7 @@
     height: 100vh;
     margin-top: 30px;
     min-width: 280px;
-    position: fixed;
+    position: sticky;
     top: 50px;
     right: 0;
 }
@@ -56,7 +56,7 @@
 }
 
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 950px) {
     .body__right {
         display: none;
     }

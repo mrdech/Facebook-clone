@@ -9,6 +9,7 @@ import AppsIcon from "@mui/icons-material/Apps";
 import MessageIcon from "@mui/icons-material/Message";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import { Avatar } from "@mui/material";
+import MenuIcon from "@mui/icons-material/Menu";
 
 import "./Header.css";
 
@@ -40,8 +41,11 @@ function Header() {
         <div className="header__option">
           <ShoppingBagIcon />
         </div>
-        <div className="header__option">
+        <div className="header__option header__hidden">
           <VideogameAssetIcon />
+        </div>
+        <div className="header__option header__menu">
+          <MenuIcon />
         </div>
       </div>
 
