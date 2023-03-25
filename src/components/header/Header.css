@@ -20,6 +20,7 @@
 
 .header__logo {
     height: 40px;
+    cursor: pointer;
 }
 
 .header__search {
@@ -48,6 +49,7 @@
     text-align: center;
     margin: 3px;
     padding: 5px 40px;
+    cursor: pointer;
 }
 
 .header__option:hover {
@@ -86,6 +88,7 @@
     border-radius: 50%;
     background-color: #e7e7e7;
     margin: 0 3px;
+    cursor: pointer;
 }
 
 .header__btn-option:hover {

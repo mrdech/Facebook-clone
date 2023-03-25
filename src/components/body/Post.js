@@ -10,7 +10,7 @@ function Post() {
   return (
     <div className="post">
       <div className="post__content">
-        <Avatar>L</Avatar>
+        <Avatar style={{ cursor: "pointer" }}>L</Avatar>
         <form>
           <input type="text" placeholder="Bạn đang nghĩ gì thế?" />
         </form>

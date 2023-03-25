@@ -7,6 +7,7 @@
     box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
     margin: 0 3px;
     transition: all 0.1s;
+    cursor: pointer;
 }
 
 .cell__title {
@@ -46,6 +47,12 @@
     padding: 5px;
     top: 10px;
     left: 10px;
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+.cell .cell__avatar:hover {
+    background-color: rgb(126, 126, 126);
 }
 
 .cell .cell__username {

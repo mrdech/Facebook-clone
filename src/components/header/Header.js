@@ -55,7 +55,7 @@ function Header() {
         <div className="header__btn-option">
           <NotificationsIcon />
         </div>
-        <Avatar>L</Avatar>
+        <Avatar style={{ cursor: "pointer" }}>L</Avatar>
       </div>
     </div>
   );

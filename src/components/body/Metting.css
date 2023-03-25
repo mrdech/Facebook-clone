@@ -17,6 +17,7 @@
     justify-content: center;
     align-items: center;
     width: max-content;
+    cursor: pointer;
 }
 
 .metting__items:hover {

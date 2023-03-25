@@ -1,11 +1,14 @@
 .body__left {
     display: flex;
     flex-direction: column;
-    margin: 10px;
-    flex: 1;
     padding: 10px;
     margin-bottom: 10px;
     min-width: 280px;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    z-index: 999;
+    height: 100vh;
 }
 
 .left-top {

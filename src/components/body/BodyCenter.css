@@ -1,6 +1,11 @@
 .body__center {
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
-    flex: 2;
-    padding: 10px 8%;
+    width: 590px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1250px) {
+    .body__center {}
 }

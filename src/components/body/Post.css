@@ -52,6 +52,7 @@
     padding: 8px 15px;
     justify-content: center;
     color: rgb(100, 206, 100);
+    cursor: pointer;
 }
 
 .post__option>.MuiSvgIcon-root {

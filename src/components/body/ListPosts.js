@@ -10,7 +10,7 @@ function ListPosts(props) {
   return (
     <div className="posts">
       <div className="posts__info">
-        <Avatar />
+        <Avatar style={{ cursor: "pointer" }} />
         <div className="post__info__text">
           <h2>{props.userName}</h2>
           <h3>{props.time}</h3>
